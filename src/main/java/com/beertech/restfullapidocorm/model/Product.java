@@ -15,6 +15,9 @@ public class Product {
 	private String name;
 	private String description;
 	private Double price;
+	
+	public Product() {
+	}
 		
 	public Product(ProductDto productDto) {
 		this.name = productDto.getName();
